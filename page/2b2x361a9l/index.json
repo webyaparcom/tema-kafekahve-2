@@ -1,0 +1,40 @@
+{
+  "id": "2b2x361a9l",
+  "name": {
+    "tr": "Menü",
+    "en": "Menu",
+    "ar": "القائمة"
+  },
+  "description": {
+    "tr": "Kahveler, kahvaltı ve tatlılar; kurgusal fiyatlar.",
+    "en": "Coffee, breakfast and desserts; fictional prices.",
+    "ar": "القهوة والفطور والحلويات؛ أسعار افتراضية."
+  },
+  "keyword": {
+    "tr": "menü, fiyat listesi, kahve",
+    "en": "menu, price list, coffee",
+    "ar": "قائمة، أسعار، قهوة"
+  },
+  "path": "hizmetler",
+  "icon": "restaurant_menu",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "2l2jal",
+      "4gbg6v"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Menü",
+    "en": "Menu",
+    "ar": "القائمة"
+  },
+  "date": "2026-11-16T11:39:42.570Z",
+  "update": "2026-11-16T11:42:46.976Z"
+}

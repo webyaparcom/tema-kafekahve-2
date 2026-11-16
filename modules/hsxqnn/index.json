@@ -1,0 +1,54 @@
+{
+  "name": "Sayaç Kara Tahta — tebeşir yazılı rakamlar + canlı artan akış",
+  "description": "Çerçeveli kara tahta: üstte buharı tüten tebeşir fincan, rakamlar el yazısı italik + dalgalı tebeşir alt çizgi, görünür olunca soldan sağa «yazılır». Satırda `hiz` (dakikada artış) ve desing `canli_ad` verilirse o rakam canlı artar (nabız noktası + tik parıltısı) ve tahtada «Canlı» durdur/sürdür düğmesi çıkar. JS yoksa sayılar sabit, düğme yok. sayac-odometre hane kutucuklarıyla 0'dan bir kez sayar, sayac-kayan-bant şerit kaydırır; bu modül değeri sayfa açıkken gerçek zamanlı ARTIRIR (dakikadaki hız, durdur/sürdür) ve kara tahta + tebeşir + fincan iskeletiyle kafe menü tahtası dilini kurar. Sayılar sayfa diliyle biçimlenir (Intl), metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "local_cafe",
+  "category": "stats",
+  "subCategory": "chalkboard-live",
+  "tags": [
+    "stats",
+    "chalkboard",
+    "live",
+    "ticker",
+    "cafe",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-bg, #ffffff)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+    "kartBg": "var(--mx-site-surface, #f6f7f9)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "canli_ad": "",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "sayi": "sayı (zorunlu; 1200 · \"4.9\")",
+      "onek": "önek (dil sözlüğü; ör. «%»)",
+      "sonek": "sonek (dil sözlüğü; ör. «+», «/5»)",
+      "etiket": "etiket (dil sözlüğü, zorunlu)",
+      "metin": "kısa not (dil sözlüğü)",
+      "ikon": "Material Symbols adı",
+      "ondalik": "ondalık basamak (yoksa sayıdan)",
+      "max": "oran tavanı (halka/çubuk/dolgu; yoksa % → 100, değilse listedeki en büyük)"
+    }
+  }
+}

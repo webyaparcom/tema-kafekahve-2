@@ -1,0 +1,165 @@
+{
+  "data": [
+    {
+      "id": "2b2x361a9l",
+      "name": {
+        "tr": "Menü",
+        "en": "Menu",
+        "ar": "القائمة"
+      },
+      "description": {
+        "tr": "Kahveler, kahvaltı ve tatlılar; kurgusal fiyatlar.",
+        "en": "Coffee, breakfast and desserts; fictional prices.",
+        "ar": "القهوة والفطور والحلويات؛ أسعار افتراضية."
+      },
+      "path": "hizmetler",
+      "icon": "restaurant_menu",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "2l2jal",
+          "4gbg6v"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Hikâyemiz",
+        "en": "Our story",
+        "ar": "قصتنا"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "qvzh0b",
+          "0trngf",
+          "di2759"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "2016'da tek tezgâhla başlayan kurgusal bir mahalle kahve evi.",
+        "en": "A fictional neighbourhood coffee house that started with a single counter in 2016.",
+        "ar": "بيت قهوة حيّ افتراضي بدأ بطاولة واحدة عام 2016."
+      }
+    },
+    {
+      "id": "alpeblwplh",
+      "name": {
+        "tr": "Ekip",
+        "en": "Team",
+        "ar": "الفريق"
+      },
+      "description": {
+        "tr": "Tezgâhın arkasındaki kurgusal ekip.",
+        "en": "The fictional team behind the counter.",
+        "ar": "الفريق الافتراضي خلف الطاولة."
+      },
+      "path": "ekip",
+      "icon": "groups",
+      "category": "hakkimizda",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "0trngf"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "60u57hkksr",
+      "name": {
+        "tr": "Konuk defteri",
+        "en": "Guest book",
+        "ar": "دفتر الزوار"
+      },
+      "description": {
+        "tr": "Konuklarımızın notları (kurgusal).",
+        "en": "Notes from our guests (fictional).",
+        "ar": "ملاحظات ضيوفنا (افتراضية)."
+      },
+      "path": "referanslar",
+      "icon": "stars",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "76m2v5",
+          "4gbg6v"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "4e1qnh2x9k",
+      "name": {
+        "tr": "Olanaklar",
+        "en": "Amenities",
+        "ar": "المرافق"
+      },
+      "description": {
+        "tr": "Wi-Fi, prizli masalar, aile ve erişim olanakları.",
+        "en": "Wi-Fi, tables with sockets, family and access amenities.",
+        "ar": "واي فاي وطاولات بمقابس ومرافق للعائلة والوصول."
+      },
+      "path": "teklif-al",
+      "icon": "chair",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "s4973j",
+          "4gbg6v"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "Şubeler",
+        "en": "Branches",
+        "ar": "الفروع"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 5,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "cn3vao",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

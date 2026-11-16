@@ -1,0 +1,155 @@
+<section class="modulex-deger-prensip-deste{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-deger-prensip-deste-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* deger-prensip-deste — deger-ray yan yana kaydırılan karttır, deger-yapiskan-yigin kaydırmayla yığılır; bu modülde kartlar tek yerde üst üste durur ve el ile (pointer sürükleme) tek tek destenin dibine atılır. */
+  .modulex-deger-prensip-deste { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-deger-prensip-deste *, .modulex-deger-prensip-deste *::before, .modulex-deger-prensip-deste *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-deger-prensip-deste :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-deger-prensip-deste :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-deger-prensip-deste :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-deger-prensip-deste :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-deger-prensip-deste img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-deger-prensip-deste) img { height: auto; }
+  .modulex-deger-prensip-deste [hidden] { display: none !important; }
+  .modulex-deger-prensip-deste :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-deger-prensip-deste :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-deger-prensip-deste-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-deger-prensip-deste-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-deger-prensip-deste--bassiz .modulex-deger-prensip-deste-bas { display: none; }
+  .modulex-deger-prensip-deste-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-deger-prensip-deste-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-deger-prensip-deste-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-deger-prensip-deste-bas { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px 48px; align-items: end; }
+  .modulex-deger-prensip-deste-ust { grid-column: 1 / -1; }
+  .modulex-deger-prensip-deste-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-deger-prensip-deste-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-deger-prensip-deste-dugme:hover { transform: translateY(-2px); }
+  .modulex-deger-prensip-deste-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-deger-prensip-deste-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-deger-prensip-deste-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-deger-prensip-deste-masa { display: grid; gap: 22px; }
+  .modulex-deger-prensip-deste-deste { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 18px; }
+  .modulex-deger-prensip-deste-kart { position: relative; display: grid; align-content: start; gap: 12px; min-height: 300px; padding: clamp(24px, 3vw, 36px); border: 1px solid --cizgi--; border-radius: calc(--yuvarlak-- * 1.3); background: --kartBg--; transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease; }
+  .modulex-deger-prensip-deste-kart--0 { border-color: transparent; background: --vurguBg--; color: --vurguText--; }
+  .modulex-deger-prensip-deste-kart--2 { border-color: transparent; background: --text--; color: --bg--; }
+  .modulex-deger-prensip-deste-kart--0 :is(.modulex-deger-prensip-deste-kmetin, .modulex-deger-prensip-deste-ikon, .modulex-deger-prensip-deste-kno, .modulex-deger-prensip-deste-etiket), .modulex-deger-prensip-deste-kart--2 :is(.modulex-deger-prensip-deste-kmetin, .modulex-deger-prensip-deste-ikon, .modulex-deger-prensip-deste-kno, .modulex-deger-prensip-deste-etiket) { color: inherit; }
+  .modulex-deger-prensip-deste-kno { color: --muted--; font-family: var(--mx-font-mono, ui-monospace, monospace); font-size: 0.85rem; }
+  .modulex-deger-prensip-deste-ikon { color: --accentInk--; font-size: 44px; }
+  .modulex-deger-prensip-deste-etiket { color: --accentInk--; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-deger-prensip-deste-kbaslik { font-size: clamp(1.4rem, 2.4vw, 1.9rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; }
+  .modulex-deger-prensip-deste-kmetin { color: --muted--; line-height: 1.7; }
+  .modulex-deger-prensip-deste-tutamak { display: none; position: absolute; inset-block-end: 18px; inset-inline-end: 18px; font-size: 26px; }
+  .modulex-deger-prensip-deste-kontrol { display: none; align-items: center; justify-content: center; gap: 16px; }
+  .modulex-deger-prensip-deste--js .modulex-deger-prensip-deste-kontrol { display: flex; }
+  .modulex-deger-prensip-deste--js .modulex-deger-prensip-deste-deste { grid-template-columns: minmax(0, 560px); justify-content: center; padding-block: 6px 72px; }
+  .modulex-deger-prensip-deste--js .modulex-deger-prensip-deste-kart { grid-area: 1 / 1; transform-origin: 50% 100%; transform: translateX(var(--x, 0px)) rotate(var(--r, 0deg)) translateY(calc(var(--d) * 16px)) scale(calc(1 - var(--d) * 0.05)); box-shadow: 0 24px 40px -30px color-mix(in srgb, --text-- 70%, transparent); touch-action: pan-y; user-select: none; }
+  .modulex-deger-prensip-deste--js .modulex-deger-prensip-deste-kart .modulex-deger-prensip-deste-bag::after { content: none; }
+  .modulex-deger-prensip-deste--js .modulex-deger-prensip-deste-kart.modulex-deger-prensip-deste--ust { cursor: grab; }
+  .modulex-deger-prensip-deste--js .modulex-deger-prensip-deste-kart.modulex-deger-prensip-deste--surukle { cursor: grabbing; transition: none; }
+  .modulex-deger-prensip-deste--js .modulex-deger-prensip-deste-tutamak { display: block; }
+  .modulex-deger-prensip-deste-deste:focus-visible { outline: 3px solid --accent--; outline-offset: 6px; border-radius: --yuvarlak--; }
+  .modulex-deger-prensip-deste-sayac { display: flex; align-items: baseline; gap: 6px; font-variant-numeric: tabular-nums; font-weight: 700; }
+  .modulex-deger-prensip-deste-sayac b { font-size: 1.6rem; }
+  .modulex-deger-prensip-deste-ok { display: inline-grid; place-items: center; width: 52px; height: 52px; border: 1px solid --cizgi--; border-radius: 50%; background: transparent; color: --text--; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease; }
+  .modulex-deger-prensip-deste-ok:hover { border-color: --accent--; background: --accent--; color: --accentText--; }
+  @media (max-width: 768px) {
+    .modulex-deger-prensip-deste-kart { min-height: 260px; }
+    .modulex-deger-prensip-deste--js .modulex-deger-prensip-deste-deste { padding-block-end: 60px; }
+  }
+  .modulex-deger-prensip-deste-bag { color: inherit; text-decoration: none; }
+  .modulex-deger-prensip-deste-bag::after { content: ""; position: absolute; inset: 0; z-index: 3; }
+  .modulex-deger-prensip-deste-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-deger-prensip-deste :is(.modulex-deger-prensip-deste-baslik, .modulex-deger-prensip-deste-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-deger-prensip-deste-baslik { line-height: 1.35; }
+  @media (max-width: 1024px) {
+    .modulex-deger-prensip-deste-bas { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .modulex-deger-prensip-deste { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-deger-prensip-deste *, .modulex-deger-prensip-deste *::before, .modulex-deger-prensip-deste *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-deger-prensip-deste";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const deste = (s, P) => {
+        const d = s.querySelector("[data-deste]");
+        if (!d) return;
+        const k = [...d.children];
+        if (k.length < 2) return;
+        s.classList.add(P + "--js");
+        d.tabIndex = 0;
+        const say = s.querySelector("[data-deste-no]");
+        let f = null;
+        try { f = new Intl.NumberFormat(document.documentElement.lang || undefined); } catch (x) { f = null; }
+        const sira = k.map((_, i) => i);
+        const ciz = () => {
+          sira.forEach((j, n) => {
+            const e = k[j];
+            e.style.setProperty("--d", String(Math.min(n, 4)));
+            e.style.zIndex = String(k.length - n);
+            e.classList.toggle(P + "--ust", n === 0);
+            e.inert = n !== 0;
+            if (n) e.setAttribute("aria-hidden", "true"); else e.removeAttribute("aria-hidden");
+          });
+          if (say) say.textContent = f ? f.format(sira[0] + 1) : String(sira[0] + 1);
+        };
+        const ileri = () => { sira.push(sira.shift()); ciz(); };
+        const geri = () => { sira.unshift(sira.pop()); ciz(); };
+        s.querySelectorAll("[data-deste-yon]").forEach((b) => b.addEventListener("click", () => { if (b.dataset.desteYon === "ileri") ileri(); else geri(); }));
+        d.addEventListener("keydown", (e) => {
+          const rtl = getComputedStyle(d).direction === "rtl";
+          if (e.key === (rtl ? "ArrowLeft" : "ArrowRight")) { e.preventDefault(); ileri(); }
+          else if (e.key === (rtl ? "ArrowRight" : "ArrowLeft")) { e.preventDefault(); geri(); }
+        });
+        let u = null;
+        let x0 = 0;
+        let dx = 0;
+        d.addEventListener("pointerdown", (e) => {
+          const t = e.target.closest("." + P + "--ust");
+          if (!t || e.target.closest("a, button")) return;
+          u = t;
+          x0 = e.clientX;
+          dx = 0;
+          u.classList.add(P + "--surukle");
+          if (u.setPointerCapture) u.setPointerCapture(e.pointerId);
+        });
+        d.addEventListener("pointermove", (e) => {
+          if (!u) return;
+          dx = e.clientX - x0;
+          u.style.setProperty("--x", dx + "px");
+          u.style.setProperty("--r", (dx / 18).toFixed(2) + "deg");
+        });
+        const birak = () => {
+          if (!u) return;
+          const t = u;
+          u = null;
+          t.classList.remove(P + "--surukle");
+          t.style.removeProperty("--x");
+          t.style.removeProperty("--r");
+          if (Math.abs(dx) > 70) ileri();
+        };
+        d.addEventListener("pointerup", birak);
+        d.addEventListener("pointercancel", birak);
+        ciz();
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      deste(s, P, az);
+    });
+  })();
+</script>

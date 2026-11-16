@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Telve Kahve Evi: Türk kahvesi, menengiç, demleme kahve, serpme kahvaltı ve fıstıklı tatlılar; üç şube. Demo site; içerik ve fiyatlar kurgusaldır.",
+    "en": "Telve Coffee House: Turkish coffee, terebinth coffee, filter brews, shared breakfast and pistachio desserts; three branches. Demo site; content and prices are fictional.",
+    "ar": "بيت تلفه للقهوة: قهوة تركية وقهوة البطم وقهوة مقطرة وفطور مشترك وحلويات بالفستق؛ ثلاثة فروع. موقع تجريبي؛ المحتوى والأسعار افتراضية."
+  },
+  "keyword": {
+    "tr": "kahve evi, türk kahvesi, menengiç kahvesi, kahvaltı, fıstıklı baklava",
+    "en": "coffee house, Turkish coffee, terebinth coffee, breakfast, pistachio baklava",
+    "ar": "بيت قهوة، قهوة تركية، قهوة البطم، فطور، بقلاوة بالفستق"
+  },
+  "category": "Kurumsal",
+  "name": "Telve Kahve Evi",
+  "domain": "kafekahve-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "nunito",
+    "heading": "dm-serif-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#2F5D50",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "8px",
+    "--mx-radius-md": "14px",
+    "--mx-radius-lg": "20px",
+    "--mx-radius-xl": "27px"
+  },
+  "icon": "icon.png"
+}
