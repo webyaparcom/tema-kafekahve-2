@@ -1,0 +1,40 @@
+{
+  "id": "60u57hkksr",
+  "name": {
+    "tr": "Konuk defteri",
+    "en": "Guest book",
+    "ar": "دفتر الزوار"
+  },
+  "description": {
+    "tr": "Konuklarımızın notları (kurgusal).",
+    "en": "Notes from our guests (fictional).",
+    "ar": "ملاحظات ضيوفنا (افتراضية)."
+  },
+  "keyword": {
+    "tr": "referans, müşteri yorumu",
+    "en": "reference, review",
+    "ar": "مرجع، تقييم"
+  },
+  "path": "referanslar",
+  "icon": "stars",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "76m2v5",
+      "4gbg6v"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Konuk defteri",
+    "en": "Guest book",
+    "ar": "دفتر الزوار"
+  },
+  "date": "2026-11-16T11:39:42.583Z",
+  "update": "2026-11-16T11:42:46.986Z"
+}

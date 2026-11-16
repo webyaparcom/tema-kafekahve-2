@@ -1,0 +1,48 @@
+{
+  "name": {
+    "tr": "Hikâyemiz",
+    "en": "Our story",
+    "ar": "قصتنا"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "qvzh0b",
+      "0trngf",
+      "di2759"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "2016'da tek tezgâhla başlayan kurgusal bir mahalle kahve evi.",
+    "en": "A fictional neighbourhood coffee house that started with a single counter in 2016.",
+    "ar": "بيت قهوة حيّ افتراضي بدأ بطاولة واحدة عام 2016."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hikâyemiz",
+    "en": "Our story",
+    "ar": "قصتنا"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T11:42:46.979Z",
+  "date": "2026-10-30"
+}

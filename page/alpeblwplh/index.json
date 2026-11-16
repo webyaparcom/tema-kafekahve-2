@@ -1,0 +1,39 @@
+{
+  "id": "alpeblwplh",
+  "name": {
+    "tr": "Ekip",
+    "en": "Team",
+    "ar": "الفريق"
+  },
+  "description": {
+    "tr": "Tezgâhın arkasındaki kurgusal ekip.",
+    "en": "The fictional team behind the counter.",
+    "ar": "الفريق الافتراضي خلف الطاولة."
+  },
+  "keyword": {
+    "tr": "ekip, kadro",
+    "en": "team, staff",
+    "ar": "فريق، طاقم"
+  },
+  "path": "ekip",
+  "icon": "groups",
+  "category": "hakkimizda",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "0trngf"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Ekip",
+    "en": "Team",
+    "ar": "الفريق"
+  },
+  "date": "2026-11-16T11:39:42.578Z",
+  "update": "2026-11-16T11:42:46.983Z"
+}

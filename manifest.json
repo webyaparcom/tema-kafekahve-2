@@ -1,0 +1,29 @@
+{
+  "name": "Telve Kahve Evi",
+  "short_name": "Telve Kahve",
+  "description": "Telve Kahve Evi: Türk kahvesi, menengiç, demleme kahve, serpme kahvaltı ve fıstıklı tatlılar; üç şube. Demo site; içerik ve fiyatlar kurgusaldır.",
+  "start_url": "/tr/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2F5D50",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
