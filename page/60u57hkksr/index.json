@@ -3,17 +3,23 @@
   "name": {
     "tr": "Konuk defteri",
     "en": "Guest book",
-    "ar": "دفتر الزوار"
+    "ar": "دفتر الزوار",
+    "de": "Gästebuch",
+    "ru": "Гостевая книга"
   },
   "description": {
     "tr": "Konuklarımızın notları (kurgusal).",
     "en": "Notes from our guests (fictional).",
-    "ar": "ملاحظات ضيوفنا (افتراضية)."
+    "ar": "ملاحظات ضيوفنا (افتراضية).",
+    "de": "Notizen unserer Gäste (fiktiv).",
+    "ru": "Заметки наших гостей (вымышленные)."
   },
   "keyword": {
     "tr": "referans, müşteri yorumu",
     "en": "reference, review",
-    "ar": "مرجع، تقييم"
+    "ar": "مرجع، تقييم",
+    "de": "Referenz, Kundenbewertung",
+    "ru": "рекомендация, отзыв клиента"
   },
   "path": "referanslar",
   "icon": "stars",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Konuk defteri",
     "en": "Guest book",
-    "ar": "دفتر الزوار"
+    "ar": "دفتر الزوار",
+    "de": "Gästebuch",
+    "ru": "Гостевая книга"
   },
   "date": "2026-11-16T11:39:42.583Z",
   "update": "2026-11-16T11:42:46.986Z"

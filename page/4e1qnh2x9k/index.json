@@ -3,17 +3,23 @@
   "name": {
     "tr": "Olanaklar",
     "en": "Amenities",
-    "ar": "المرافق"
+    "ar": "المرافق",
+    "de": "Ausstattung",
+    "ru": "Услуги"
   },
   "description": {
     "tr": "Wi-Fi, prizli masalar, aile ve erişim olanakları.",
     "en": "Wi-Fi, tables with sockets, family and access amenities.",
-    "ar": "واي فاي وطاولات بمقابس ومرافق للعائلة والوصول."
+    "ar": "واي فاي وطاولات بمقابس ومرافق للعائلة والوصول.",
+    "de": "WLAN, Tische mit Steckdosen, Familie und Barrierefreiheit.",
+    "ru": "Wi-Fi, столы с розетками, семейные удобства и доступность."
   },
   "keyword": {
     "tr": "teklif",
     "en": "quote",
-    "ar": "عرض سعر"
+    "ar": "عرض سعر",
+    "de": "Angebot",
+    "ru": "оценка"
   },
   "path": "teklif-al",
   "icon": "chair",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Olanaklar",
     "en": "Amenities",
-    "ar": "المرافق"
+    "ar": "المرافق",
+    "de": "Ausstattung",
+    "ru": "Услуги"
   },
   "date": "2026-11-16T11:39:42.588Z",
   "update": "2026-11-16T11:42:46.989Z"
