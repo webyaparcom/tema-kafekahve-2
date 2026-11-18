@@ -3,17 +3,23 @@
   "name": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "description": {
     "tr": "Misyonumuz",
     "en": "Our mission",
-    "ar": "مهمتنا"
+    "ar": "مهمتنا",
+    "de": "Unsere Mission",
+    "ru": "Наша миссия"
   },
   "keyword": {
     "tr": "Misyon",
     "en": "mission, our mission, corporate responsibility",
-    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية"
+    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "path": "misyon",
   "icon": "flag",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Misyonumuz</h2>\n<p>Her fincanı taze kavrulmuş çekirdekle, acele etmeden pişirmek.</p>",
     "en": "<h2>Our mission</h2>\n<p>To brew every cup from freshly roasted beans, without hurrying.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>تحضير كل فنجان من حبوب محمصة طازجة ودون عجلة.</p>"
+    "ar": "<h2>مهمتنا</h2>\n<p>تحضير كل فنجان من حبوب محمصة طازجة ودون عجلة.</p>",
+    "de": "<h2>Unsere Mission</h2>\n<p>Jede Tasse ohne Eile mit frisch gerösteten Bohnen zuzubereiten.</p>",
+    "ru": "<h2>Наша миссия</h2>\n<p>Готовить каждую чашку без спешки из свежеобжаренных зёрен.</p>"
   },
   "title": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "date": "2026-11-16T11:39:42.432Z",
   "update": "2026-11-16T11:42:46.996Z",

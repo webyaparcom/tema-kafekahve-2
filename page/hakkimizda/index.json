@@ -2,7 +2,9 @@
   "name": {
     "tr": "Hikâyemiz",
     "en": "Our story",
-    "ar": "قصتنا"
+    "ar": "قصتنا",
+    "de": "Unsere Geschichte",
+    "ru": "Наша история"
   },
   "status": "play",
   "category": "",
@@ -24,7 +26,9 @@
   "description": {
     "tr": "2016'da tek tezgâhla başlayan kurgusal bir mahalle kahve evi.",
     "en": "A fictional neighbourhood coffee house that started with a single counter in 2016.",
-    "ar": "بيت قهوة حيّ افتراضي بدأ بطاولة واحدة عام 2016."
+    "ar": "بيت قهوة حيّ افتراضي بدأ بطاولة واحدة عام 2016.",
+    "de": "Ein fiktives Nachbarschafts-Kaffeehaus, das 2016 mit einem einzigen Tresen begann.",
+    "ru": "Вымышленная районная кофейня, начавшаяся в 2016 году с одного прилавка."
   },
   "spot": {
     "tr": "",
@@ -35,12 +39,16 @@
   "title": {
     "tr": "Hikâyemiz",
     "en": "Our story",
-    "ar": "قصتنا"
+    "ar": "قصتنا",
+    "de": "Unsere Geschichte",
+    "ru": "Наша история"
   },
   "keyword": {
     "tr": "hakkımızda",
     "en": "about",
-    "ar": "من نحن"
+    "ar": "من نحن",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "text": {},
   "update": "2026-11-16T11:42:46.979Z",

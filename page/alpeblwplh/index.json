@@ -3,17 +3,23 @@
   "name": {
     "tr": "Ekip",
     "en": "Team",
-    "ar": "الفريق"
+    "ar": "الفريق",
+    "de": "Team",
+    "ru": "Команда"
   },
   "description": {
     "tr": "Tezgâhın arkasındaki kurgusal ekip.",
     "en": "The fictional team behind the counter.",
-    "ar": "الفريق الافتراضي خلف الطاولة."
+    "ar": "الفريق الافتراضي خلف الطاولة.",
+    "de": "Das fiktive Team hinter dem Tresen.",
+    "ru": "Вымышленная команда за прилавком."
   },
   "keyword": {
     "tr": "ekip, kadro",
     "en": "team, staff",
-    "ar": "فريق، طاقم"
+    "ar": "فريق، طاقم",
+    "de": "Team, Personal",
+    "ru": "команда, персонал"
   },
   "path": "ekip",
   "icon": "groups",
@@ -32,7 +38,9 @@
   "title": {
     "tr": "Ekip",
     "en": "Team",
-    "ar": "الفريق"
+    "ar": "الفريق",
+    "de": "Team",
+    "ru": "Команда"
   },
   "date": "2026-11-16T11:39:42.578Z",
   "update": "2026-11-16T11:42:46.983Z"

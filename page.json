@@ -5,12 +5,16 @@
       "name": {
         "tr": "Menü",
         "en": "Menu",
-        "ar": "القائمة"
+        "ar": "القائمة",
+        "de": "Menü",
+        "ru": "Меню"
       },
       "description": {
         "tr": "Kahveler, kahvaltı ve tatlılar; kurgusal fiyatlar.",
         "en": "Coffee, breakfast and desserts; fictional prices.",
-        "ar": "القهوة والفطور والحلويات؛ أسعار افتراضية."
+        "ar": "القهوة والفطور والحلويات؛ أسعار افتراضية.",
+        "de": "Kaffee, Frühstück und Desserts; fiktive Preise.",
+        "ru": "Кофе, завтраки и десерты; цены вымышленные."
       },
       "path": "hizmetler",
       "icon": "restaurant_menu",
@@ -30,7 +34,9 @@
       "name": {
         "tr": "Hikâyemiz",
         "en": "Our story",
-        "ar": "قصتنا"
+        "ar": "قصتنا",
+        "de": "Unsere Geschichte",
+        "ru": "Наша история"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -52,7 +58,9 @@
       "description": {
         "tr": "2016'da tek tezgâhla başlayan kurgusal bir mahalle kahve evi.",
         "en": "A fictional neighbourhood coffee house that started with a single counter in 2016.",
-        "ar": "بيت قهوة حيّ افتراضي بدأ بطاولة واحدة عام 2016."
+        "ar": "بيت قهوة حيّ افتراضي بدأ بطاولة واحدة عام 2016.",
+        "de": "Ein fiktives Nachbarschafts-Kaffeehaus, das 2016 mit einem einzigen Tresen begann.",
+        "ru": "Вымышленная районная кофейня, начавшаяся в 2016 году с одного прилавка."
       }
     },
     {
@@ -60,12 +68,16 @@
       "name": {
         "tr": "Ekip",
         "en": "Team",
-        "ar": "الفريق"
+        "ar": "الفريق",
+        "de": "Team",
+        "ru": "Команда"
       },
       "description": {
         "tr": "Tezgâhın arkasındaki kurgusal ekip.",
         "en": "The fictional team behind the counter.",
-        "ar": "الفريق الافتراضي خلف الطاولة."
+        "ar": "الفريق الافتراضي خلف الطاولة.",
+        "de": "Das fiktive Team hinter dem Tresen.",
+        "ru": "Вымышленная команда за прилавком."
       },
       "path": "ekip",
       "icon": "groups",
@@ -85,12 +97,16 @@
       "name": {
         "tr": "Konuk defteri",
         "en": "Guest book",
-        "ar": "دفتر الزوار"
+        "ar": "دفتر الزوار",
+        "de": "Gästebuch",
+        "ru": "Гостевая книга"
       },
       "description": {
         "tr": "Konuklarımızın notları (kurgusal).",
         "en": "Notes from our guests (fictional).",
-        "ar": "ملاحظات ضيوفنا (افتراضية)."
+        "ar": "ملاحظات ضيوفنا (افتراضية).",
+        "de": "Notizen unserer Gäste (fiktiv).",
+        "ru": "Заметки наших гостей (вымышленные)."
       },
       "path": "referanslar",
       "icon": "stars",
@@ -111,12 +127,16 @@
       "name": {
         "tr": "Olanaklar",
         "en": "Amenities",
-        "ar": "المرافق"
+        "ar": "المرافق",
+        "de": "Ausstattung",
+        "ru": "Услуги"
       },
       "description": {
         "tr": "Wi-Fi, prizli masalar, aile ve erişim olanakları.",
         "en": "Wi-Fi, tables with sockets, family and access amenities.",
-        "ar": "واي فاي وطاولات بمقابس ومرافق للعائلة والوصول."
+        "ar": "واي فاي وطاولات بمقابس ومرافق للعائلة والوصول.",
+        "de": "WLAN, Tische mit Steckdosen, Familie und Barrierefreiheit.",
+        "ru": "Wi-Fi, столы с розетками, семейные удобства и доступность."
       },
       "path": "teklif-al",
       "icon": "chair",
@@ -136,7 +156,9 @@
       "name": {
         "tr": "Şubeler",
         "en": "Branches",
-        "ar": "الفروع"
+        "ar": "الفروع",
+        "de": "Filialen",
+        "ru": "Филиалы"
       },
       "status": "play",
       "id": "iletisim",
@@ -157,7 +179,9 @@
       "description": {
         "tr": "Adres, telefon ve çalışma saatleri.",
         "en": "Address, phone and opening hours.",
-        "ar": "العنوان والهاتف وساعات العمل."
+        "ar": "العنوان والهاتف وساعات العمل.",
+        "de": "Adresse, Telefon und Öffnungszeiten.",
+        "ru": "Адрес, телефон и часы работы."
       }
     }
   ],

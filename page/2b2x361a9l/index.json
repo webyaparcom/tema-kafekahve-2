@@ -3,17 +3,23 @@
   "name": {
     "tr": "Menü",
     "en": "Menu",
-    "ar": "القائمة"
+    "ar": "القائمة",
+    "de": "Menü",
+    "ru": "Меню"
   },
   "description": {
     "tr": "Kahveler, kahvaltı ve tatlılar; kurgusal fiyatlar.",
     "en": "Coffee, breakfast and desserts; fictional prices.",
-    "ar": "القهوة والفطور والحلويات؛ أسعار افتراضية."
+    "ar": "القهوة والفطور والحلويات؛ أسعار افتراضية.",
+    "de": "Kaffee, Frühstück und Desserts; fiktive Preise.",
+    "ru": "Кофе, завтраки и десерты; цены вымышленные."
   },
   "keyword": {
     "tr": "menü, fiyat listesi, kahve",
     "en": "menu, price list, coffee",
-    "ar": "قائمة، أسعار، قهوة"
+    "ar": "قائمة، أسعار، قهوة",
+    "de": "Speisekarte, Preisliste, Kaffee",
+    "ru": "меню, прайс-лист, кофе"
   },
   "path": "hizmetler",
   "icon": "restaurant_menu",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Menü",
     "en": "Menu",
-    "ar": "القائمة"
+    "ar": "القائمة",
+    "de": "Menü",
+    "ru": "Меню"
   },
   "date": "2026-11-16T11:39:42.570Z",
   "update": "2026-11-16T11:42:46.976Z"

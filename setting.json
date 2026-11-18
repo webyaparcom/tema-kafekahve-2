@@ -4,12 +4,16 @@
   "description": {
     "tr": "Telve Kahve Evi: Türk kahvesi, menengiç, demleme kahve, serpme kahvaltı ve fıstıklı tatlılar; üç şube. Demo site; içerik ve fiyatlar kurgusaldır.",
     "en": "Telve Coffee House: Turkish coffee, terebinth coffee, filter brews, shared breakfast and pistachio desserts; three branches. Demo site; content and prices are fictional.",
-    "ar": "بيت تلفه للقهوة: قهوة تركية وقهوة البطم وقهوة مقطرة وفطور مشترك وحلويات بالفستق؛ ثلاثة فروع. موقع تجريبي؛ المحتوى والأسعار افتراضية."
+    "ar": "بيت تلفه للقهوة: قهوة تركية وقهوة البطم وقهوة مقطرة وفطور مشترك وحلويات بالفستق؛ ثلاثة فروع. موقع تجريبي؛ المحتوى والأسعار افتراضية.",
+    "de": "Telve Kahve Evi: Türkischer Kaffee, Menengiç, Filterkaffee, Frühstück à la Serpme und Pistaziengebäck; drei Filialen. Demo-Website; Inhalte und Preise sind fiktiv.",
+    "ru": "Telve Kahve Evi: турецкий кофе, менгенгич, фильтр-кофе, завтрак «серпме» и десерты с фисташками; три филиала. Демо-сайт; содержание и цены условные."
   },
   "keyword": {
     "tr": "kahve evi, türk kahvesi, menengiç kahvesi, kahvaltı, fıstıklı baklava",
     "en": "coffee house, Turkish coffee, terebinth coffee, breakfast, pistachio baklava",
-    "ar": "بيت قهوة، قهوة تركية، قهوة البطم، فطور، بقلاوة بالفستق"
+    "ar": "بيت قهوة، قهوة تركية، قهوة البطم، فطور، بقلاوة بالفستق",
+    "de": "Kaffeestube, türkischer Kaffee, Terebinthkaffee, Frühstück, Pistazienbaklava",
+    "ru": "кофейня, турецкий кофе, кофе из теробинта, завтрак, бахлава с фисташками"
   },
   "category": "Kurumsal",
   "name": "Telve Kahve Evi",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,
